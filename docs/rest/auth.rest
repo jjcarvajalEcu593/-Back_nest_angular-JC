@@ -3,6 +3,22 @@ Content-Type: application/json
 
 {
   "name": "prueba",
-  "email": "rp@hm.com",
-  "password": "12"
+  "email": "rpm@gmail.com",
+  "password": "12345678"
 }
+
+
+
+### Login sin conexión a la base de datos
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+  "name": "prueba2",
+  "email": "rpm@gmail.com",
+  "password": "1234567"
+}
+
+### Users
+GET http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NDU5OTEsImV4cCI6MTc5NTY0OTU5MX0.qzRTQRdgGdBK0bHTIF7b323sJ7OPS-nK4ZyBScHm_hE
