@@ -65,7 +65,6 @@ npm i --save-dev @types/passport-jwt
 
 ```
 
-```markdown
 # Instalación
 
 
@@ -104,11 +103,8 @@ nest g co modules/auth
 nest g s modules/auth
 
 ```
-```[cite: 2]
 
-*(Nota: En la línea 16 dice `Sevices`, que probablemente sea una errata de `Services`)*[cite: 2]
 
-```
 
 npx nest g mo modules/auth
 
@@ -124,3 +120,14 @@ npx nest g s modules/auth
 npm i --save class-validator class-transformer
 
 
+npm run migration:generate --name=table_user
+
+npm run migration:run
+
+npm run migration:generate --name=modificando_table_user
+
+npm run migration:generate --name=modificando_table_user2
+
+npm run migration:generate --name=eliminando_correo__table_user
+
+npm run migration:revert

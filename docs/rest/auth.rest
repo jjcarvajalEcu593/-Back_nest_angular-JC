@@ -2,7 +2,7 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-  "name": "prueba",
+  "name": "prueba1",
   "email": "rpm@gmail.com",
   "password": "12345678"
 }
@@ -21,4 +21,10 @@ Content-Type: application/json
 
 ### Users
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NDU5OTEsImV4cCI6MTc5NTY0OTU5MX0.qzRTQRdgGdBK0bHTIF7b323sJ7OPS-nK4ZyBScHm_hE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NTkxMDEsImV4cCI6MTc5NTY2MjcwMX0.0nuZPXneyD-ZN8Mm5ShAOMGbH6CnehL51Qhyd-B8IGU
+
+
+### Swagger
+http://localhost:3000/api
+
+
