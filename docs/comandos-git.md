@@ -131,3 +131,10 @@ npm run migration:generate --name=modificando_table_user2
 npm run migration:generate --name=eliminando_correo__table_user
 
 npm run migration:revert
+npm run migration:generate --name=categorias_table
+
+npm run migration:generate --name=persona__table
+
+npm run migration:generate --name=update_persona
+
+npm run migration:generate --name=update_all
